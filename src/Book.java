@@ -1,5 +1,6 @@
 public class Book {
     String bookName;
     int aitushniki;
-    String JKBOKOKKO;
+    String JKBHIB;
+    int adg;
 }
