@@ -17,7 +17,7 @@ public class Book {
                 String name = rs.getString(2);
                 String genre = rs.getString(3);
                 int price = rs.getInt(4);
-                System.out.println(id + " | " + name + " | " + genre + " | " + price);
+                System.out.println(id + " | " + name + " | " + genre + " | " + price); //ДЛЯ ВИДА
             }
             rs.close();
 
