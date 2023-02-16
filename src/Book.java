@@ -3,4 +3,5 @@ public class Book {
     int aitushniki;
     String JKBHIB;
     int adg;
+    int a;
 }
