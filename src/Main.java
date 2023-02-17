@@ -1,6 +1,9 @@
+import java.sql.SQLException;
+
 public class Main {
-    public static void main(String[] args) {
-        Book cmd=new Book();
-        cmd.DataBaseConnection();
+    public static void main(String[] args) throws SQLException {
+        Login cmd=new Login();
+        cmd.Login("Nauryzbai","12345678");
+
     }
 }
